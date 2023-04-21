@@ -5,11 +5,11 @@
   "description": "Standalone React without Create-React-App Initialization",
   "main": "index.js",
   "scripts": {
-    "deploy": "node --version gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server",
     "predeploy": "npm run build",
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "none"
   },
   "author": "Waren Gador",
   "license": "ISC",
