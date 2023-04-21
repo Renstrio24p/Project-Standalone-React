@@ -4,6 +4,7 @@
   "description": "Standalone React without Create-React-App Initialization",
   "main": "index.js",
   "scripts": {
+    "deploy": "node --version",
     "start": "webpack-dev-server",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
