@@ -1,11 +1,13 @@
 {
+  "homepage": "https://renstrio24p.github.io/https://renstrio24p.github.io/Standalone-React",
   "name": "standalone-react-wo-cra",
   "version": "1.0.1",
   "description": "Standalone React without Create-React-App Initialization",
   "main": "index.js",
   "scripts": {
-    "deploy": "node --version",
+    "deploy": "node --version gh-pages -d build",
     "start": "webpack-dev-server",
+    "predeploy": "npm run build",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +26,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-jest": "^27.2.1",
+    "gh-pages": "^5.0.0",
     "path": "^0.12.7",
     "webpack": "^5.80.0",
     "webpack-cli": "^5.0.1",
