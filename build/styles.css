@@ -45,9 +45,6 @@ nav ul {
     width: 90px;
 }
 
-img {
-    background-image: url('.././src/components/images/react-logo.svg');
-}
 
 h2 {
     font-size: 25px;
